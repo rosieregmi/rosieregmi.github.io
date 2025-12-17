@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ideas — Anubhooti Regmi</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand">Anubhooti Regmi</a>
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a class="active" href="ideas.html">Ideas</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="ideas-head">
+        <div>
+          <h1>Ideas</h1>
+        </div>
+
+        <div class="controls">
+          <input id="q" class="input" type="search" placeholder="Search ideas…" autocomplete="off" />
+          <select id="tag" class="input">
+            <option value="">All tags</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="meta-row">
+        <span class="badge" id="count">0 ideas</span>
+        <span class="muted" id="updated"></span>
+      </div>
+    </section>
+
+    <section id="ideasGrid" class="grid-2"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span class="muted">© <span id="year"></span> Anubhooti Regmi</span>
+    </div>
+  </footer>
+
+  <script src="assets/ideas.js" defer></script>
+</body>
+</html>

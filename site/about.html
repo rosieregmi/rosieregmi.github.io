@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Anubhooti Regmi</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand">Anubhooti Regmi</a>
+      <nav class="nav">
+        <a class="active" href="about.html">About</a>
+        <a href="ideas.html">Ideas</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="about-center">
+        <div class="about-layout">
+          <!-- Photo -->
+          <div class="about-photo">
+            <img
+              class="profile-photo"
+              src="assets/picture.jpeg"
+              alt="Profile photo"
+            />
+          </div>
+    
+          </br>
+          <!-- Text -->
+          <div class="about-text">
+            <h1 style="text-align: center;">About</h1>
+            <p class="lead">
+              I am a second-year PhD student in Economics at the University of Pittsburgh, 
+              studying how gender norms and behavioral factors shape women’s outcomes in developing countries. 
+              My interests lie in development economics, with a focus on micro-level data, field experiments, 
+              and applied econometric methods.
+            </p>
+    
+            <div class="grid-2">
+              <div>
+                <h2 class="h3">Research interests</h2>
+                <ul>
+                  <li>Development Economics with gender focus</li>
+                  <li>Applied Microeconomics</li>
+                  <li>Behavioral Economics</li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="h3">Education</h2>
+                <ul>
+                  <li><b>Ph.D. in Economics, 2029 (Expected)</b></li>University of Pittsburgh
+                  <li><b>M.A in Economics, 2025</b></li> University of Pittsburgh
+                  <li>B.S in Mathematics and Economics, 2022</li> Hood College
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <hr class="sep" />
+    
+      <!-- <h2 class="h3">Notes on this site</h2>
+      <p class="muted">
+        This is a public research notebook. Entries are dated to establish a clear
+        public timeline.
+      </p> -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span class="muted">© <span id="year"></span> Anubhooti Regmi</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

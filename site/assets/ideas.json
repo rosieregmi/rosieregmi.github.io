@@ -1,0 +1,17 @@
+{
+    "lastUpdated": "2025-12-16",
+    "ideas": [
+      {
+        "id": "idea-001",
+        "title": "Equal Rights, Unequal Action: Behavioral Barriers to Women’s Property Ownership through Inheritance",
+        "dateDisclosed": "2025-12-16",
+        "lastUpdated": "2025-12-16",
+        "status": "Active",
+        "tags": ["Development", "Behavioral"],
+        "abstract": "This project studies why gender gaps in land ownership persist despite equal inheritance laws in Nepal. It examines whether behavioral and social frictions—such as information asymmetries, intra-household fairness norms, and stigma costs—limit the realization of formal legal rights. Using a theory-guided experimental framework, the research aims to assess which constraints most strongly inhibit the translation of legal reform into de facto ownership outcomes.",
+        "links": [
+          { "label": "Related paper", "url": "https://example.com" }
+        ]
+      }
+    ]
+  }
